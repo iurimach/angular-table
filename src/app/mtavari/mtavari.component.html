@@ -1,0 +1,62 @@
+
+<section class="section1">
+  <div class="headerr">
+      <div class="headerleft">
+         <button class="hbt1"> <img src="./../../assets/icon/damateba.svg" alt="err" class="damateba"></button>
+          <button class="hbt1"><img src="./../../assets/icon/washla.svg" alt="err" class="washla"></button>
+      </div>
+
+      <div class="headerright">
+         <button class="hbt1" > <img src="./../../assets/icon/exsel.svg" alt="err"></button>
+      </div>
+  </div>
+  <table class="tablewrapper">
+
+
+      <tr>
+          <th class="rigie1" >Name  <img src="./../../assets/icon/isari.svg" alt="errr" class="rigi1img"></th>
+          <th class="rigie1">Position <img src="./../../assets/icon/isari.svg" alt="errr" class="rigi1img"></th>
+          <th class="rigie1">Office <img src="./../../assets/icon/isari.svg" alt="errr" class="rigi1img"></th>
+          <th class="rigie1">Extn.  <img src="./../../assets/icon/isari.svg" alt="errr" class="rigi1img"></th>
+          <th class="rigie1" id="noneitem2">Start date <img src="./../../assets/icon/isari.svg" alt="errr"class="rigi1img"></th>
+          <th class="rigie1" id="noneitem2">Salary<img src="./../../assets/icon/isari.svg" alt="errr"class="rigi1img"></th>
+
+      </tr>
+      <tr  class="tr1" *ngFor="let item of data">
+          <td>{{item[0]}}</td>
+          <td   >{{item[1]}}</td>
+          <td >{{item[2]}}</td>
+          <td>{{item[3]}}</td>
+          <td id="noneitem2">{{item[4]}}</td>
+          <td id="noneitem2">{{item[5]}}</td>
+
+      </tr>
+
+
+
+    </table>
+
+    <div class="footerwrapper">
+      <div class="footer1left">
+          <button class="fbt1">Select All</button>
+          <button class="fbt2">Deselect All</button>
+          <button class="bft3"><p>10</p> <img src="./../../assets/icon/btfooter.svg" alt="err" class="bt3img"></button>
+      </div>
+
+      <div class="footer2right">
+          <button class="fbt4">&lt;</button>
+          <button class="fbt5">1</button>
+          <button class="fbt6">2</button>
+          <button class="fbt7">3</button>
+          <button class="fbt8">...</button>
+          <button class="fbt9">10</button>
+          <button class="fbt10"> > </button>
+
+      </div>
+
+    </div>
+
+</section>
+
+
+

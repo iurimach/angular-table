@@ -1,0 +1,171 @@
+/*  reset  css*/
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/** style css */
+
+.section1{
+
+  max-width: 1880px;
+  width: 96%;
+  height: auto;
+  margin-left: 20px;
+  margin-top: 20px;
+
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: 2px solid rgb(138, 224, 67);
+  }
+
+  .headerr{
+      max-width: 1780px;
+      width: 97%;
+      height: 50px;
+
+      margin: 0 auto;
+      margin-top: 58px;
+      display: flex;
+      justify-content: space-between;
+  }
+  .hbt1{
+      border: none;
+      background-color: white;
+
+  }
+  .washla{
+      margin-left: 10px;
+  }
+
+  /**                        tabeee                                    */
+  /**                        tabeee                                    */
+  /**                        tabeee                                    */
+
+
+
+  .tablewrapper{
+
+  padding: 0px;
+  margin-left: 20px;
+  margin-top: 20px;
+
+  max-width: 1840px;
+  width: 97%;
+
+  }
+
+  .rigie1{
+
+
+      margin-top: 20px;
+      padding: 0px 16px;
+      gap: 4px;
+      max-width: 101px;
+      height: 36px;
+margin-left: -60px;
+      padding-top: 15px;
+      background: #F5F5FA;
+      font-family: 'FiraGO';
+
+      font-family: 'FiraGO';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 16px;
+
+      color: #6C6F93;
+
+      padding-right: 40px;
+
+
+  }
+  .rigi1img{
+      margin-left: 5px;
+  }
+
+  table {
+      border-collapse: collapse;
+    }
+    td {
+      padding-left: 15px;
+
+    }
+
+
+    .tr1>td{
+      height: 30px;
+
+      padding-top: 20px;
+
+      background: #FFFFFF;
+
+
+      border-top: 1px solid #E4E5F1;
+      font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6C6F93;
+    }
+    .tr2>td{
+      height: 30px;
+      padding-top: 20px;
+      background: #F8F8F8;
+      border-top: 1px solid #E4E5F1;
+
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #6C6F93;
+
+    }
+
+/**  nawili gadavitane  app kompnet css shi */
